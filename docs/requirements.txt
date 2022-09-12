@@ -1,1 +1,4 @@
+scikit-build
+numpy
+cmake
 larcv
