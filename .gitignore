@@ -1,6 +1,13 @@
 #larcv demo files:
 *.h5
 
+make.bat
+docs/_templates
+docs/_static
+*.DS_Store
+Makefile
+jupyter_execute
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
