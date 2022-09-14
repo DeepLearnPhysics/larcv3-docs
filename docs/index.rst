@@ -1,3 +1,5 @@
+.. Notes: usiing # as title, --- as subtitle, ******* in the API titles
+
 Introduction
 #############
 
@@ -20,6 +22,8 @@ LArCV was originally built in C++, using the ``ROOT`` framework for IO and data 
 ``larcv3``:
 
 `https://github.com/DeepLearnPhysics/larcv3 <https://github.com/DeepLearnPhysics/larcv3>`_
+
+Now, we use `pybind11 <https://github.com/pybind/pybind11>`_ to connect the C++ API to Python, and `JSON` for configuration - an attempt to build a software tool on top of common, open source tools.
 
 
 Use Cases
@@ -47,6 +51,7 @@ If this suits your needs, ``larcv`` might be useful to you.  If it seems *almost
    quickstart
    datamodel
    performance
+   preprocessing
    visualization
    API
 

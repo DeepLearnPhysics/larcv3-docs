@@ -4,6 +4,9 @@ Non-Storable Data Types
 .. automodule:: larcv
     :noindex:
 
+.. autoclass:: EventID
+    :members:
+
 .. autoclass:: Point2D
     :members:
 

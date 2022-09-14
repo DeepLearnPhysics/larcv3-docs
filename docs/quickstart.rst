@@ -5,7 +5,7 @@ The Quick Start documentation is mostly orientated around jupyter notebooks.  Fo
 
 .. toctree::
     :maxdepth: 1
-    
+
     notebooks/Creating Files
     notebooks/Reading Files
     notebooks/Queued IO

@@ -1,12 +1,10 @@
-
-
 Installation
---------------
+###############
 
 Installing ``larcv`` is not meant to be complicated.  You need two required and one optional non-python package;  You need a C++ compiler that is compatible with the python you want to use;  You need a couple packages available on PyPi; After that, it should not be hard to install.
 
 Required Dependencies:
-************************
+--------------------------------
 
 * HDF5 - Available through package managers on your system;  Not too challenging to build from source if needed.  From some package managers, you may need the "dev" version.
 
@@ -23,7 +21,7 @@ Required Dependencies:
 * (Optional) PyTest - if you want to test your installation, ``larcv`` has a full test suite.
 
 Installing From Source
-**************************
+--------------------------------
 
 ``larcv`` can be installed from source or via PyPi.  To install from source, please do:
 
@@ -42,7 +40,7 @@ Next, build the code with
 With CMake, it's recommended to include the ``-j 32`` (or another number) to enable the parallel build.
 
 Installing From PyPI
-************************
+--------------------------------
 
 ``larcv`` can be installed from PyPI as well.  To do so, just do ``pip install larcv`` as expected.  Your build may break if you don't have hdf5 installed (including headers).  A few tips for your installation:
 
@@ -55,7 +53,7 @@ Where the number after ``-j`` is the build parallelization.
 * Use larcv version at least 3.4.2.1 for PyPI builds.  A few other builds are not as stable.
 
 Some other build options
-**************************
+--------------------------------
 
 There are a few other options you can use to configure your build of ``larcv``, typically set as env variables at build time.
 
