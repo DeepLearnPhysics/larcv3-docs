@@ -54,6 +54,7 @@ If this suits your needs, ``larcv`` might be useful to you.  If it seems *almost
    preprocessing
    visualization
    API
+   future
 
 .. Indices and tables
 .. ==================

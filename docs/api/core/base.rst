@@ -1,6 +1,8 @@
 Base Objects
 ################
 
+The following objects are primarily for C++ developers, but documented here and available in Python.
+
 
 .. automodule:: larcv
 

@@ -8,7 +8,7 @@ With the exception of the `particle` data product, each of the data products tha
 
 The ImageMeta objects also provide a convenient interface for raveling/unraveling a multi-dimension index, identical to the `numpy` scheme of mapping a multi-index to a single flattened array index.  The ImageMeta interface is shared across all data products that have a spatial relation, ensuring consistent development patterns.  The ImageMeta objects also provide the absolute positioning of all objects, enabling full images to be built from objects that represent only a subset of a detector, potentially.
 
-Below, we include the API for `ImageMeta2D`, but please note that ImageMeta is available as `ImageMeta1D`, `ImageMeta2D`, `ImageMeta3D`, and `ImageMeta4D`.  The API is the same in all cases (in fact in C++ these are just different template specializations.)
+Below, we include the API for ``ImageMeta2D``, but please note that ImageMeta is available as ``ImageMeta1D``, ``ImageMeta2D``, ``ImageMeta3D``, and ``ImageMeta4D``.  The API is the same in all cases (in fact in C++ these are just different template specializations.)
 
 .. automodule:: larcv
     :noindex:
