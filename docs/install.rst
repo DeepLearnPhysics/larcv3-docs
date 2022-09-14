@@ -52,6 +52,11 @@ Where the number after ``-j`` is the build parallelization.
 
 * Use larcv version at least 3.4.2.1 for PyPI builds.  A few other builds are not as stable.
 
+Why no manylinux build?
+************************
+
+We haven't deployed a manylinux build yet but it's in the works.  One challenge is how to handle the HDF5 library dependencies.
+
 Some other build options
 --------------------------------
 
