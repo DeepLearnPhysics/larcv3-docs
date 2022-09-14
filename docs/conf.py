@@ -14,6 +14,10 @@ release = '3.4.2'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+# --- Options for rendering notebooks ----------------
+nb_execution_mode='off'
+
+
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
@@ -28,8 +32,7 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
-# --- Options for rendering notebooks ----------------
-nb_exectution_mode='off'
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
